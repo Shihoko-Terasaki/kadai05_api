@@ -5,7 +5,7 @@
 -Google map を使ったAPI
 
 ## ③DEMO
-
+https://shihoko-terasaki.github.io/kadai05_api/
 
 ## ④工夫した点・こだわった点
 -今から吹き出しとピンを任意の場所に追加
