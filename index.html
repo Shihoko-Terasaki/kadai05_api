@@ -19,24 +19,15 @@
       async function initMap() {
         const contentString = `
           <div>
-            <h1>Uluru</h1>
+            <h1>YokohamaStation</h1>
             <div>
               <p>
-                <b>Uluru</b>, also referred to as <b>Ayers Rock</b>, is a large
-                sandstone rock formation in the southern part of the
-                Northern Territory, central Australia. It lies 335&#160;km (208&#160;mi)
-                south west of the nearest large town, Alice Springs; 450&#160;km
-                (280&#160;mi) by road. Kata Tjuta and Uluru are the two major
-                features of the Uluru - Kata Tjuta National Park. Uluru is
-                sacred to the Pitjantjatjara and Yankunytjatjara, the
-                Aboriginal people of the area. It has many springs, waterholes,
-                rock caves and ancient paintings. Uluru is listed as a World
-                Heritage Site.
+                横浜市の中心駅で、JR・私鉄・地下鉄の各線が集まる日本有数のターミナル駅である。合計6社局が乗り入れており、1駅に乗り入れる鉄道事業者数が日本最多である。1日平均の乗降客数は約230万人（2019年度）で、年間乗降客数は約8億4100万人となる。この数字は新宿駅、渋谷駅、池袋駅、大阪・梅田駅に次いで世界第5位である。
               </p>
               <p>
-                Attribution: Uluru,
-                <a href="https://en.wikipedia.org/w/index.php?title=Uluru&oldid=297882194">
-                  https://en.wikipedia.org/w/index.php?title=Uluru
+                Attribution: yokohamaStation,
+                <a href="https://ja.wikipedia.org/wiki/%E6%A8%AA%E6%B5%9C%E9%A7%85">
+          https://ja.wikipedia.org/wiki/%E6%A8%AA%E6%B5%9C%E9%A7%85
                 </a>
                 (last visited June 22, 2009).
               </p>
@@ -44,7 +35,7 @@
           </div>`;
         const infoWindow = new google.maps.InfoWindow({
           content: contentString,
-          ariaLabel: "Uluru",
+          ariaLabel: "yokohamaStation",
         });
 
         const marker = document.querySelector('gmp-advanced-marker');
@@ -73,8 +64,8 @@
     </style>
   </head>
   <body>
-    <gmp-map center="-25.363, 131.044" zoom="4" map-id="DEMO_MAP_ID">
-      <gmp-advanced-marker position="-25.363, 131.044" title="Uluru" gmp-clickable></gmp-advanced-marker>
+    <gmp-map center="35.466317520357904, 139.6220405421934" zoom="10" map-id="DEMO_MAP_ID">
+      <gmp-advanced-marker position="35.466317520357904, 139.6220405421934" title="yokohamaStation" gmp-clickable></gmp-advanced-marker>
     </gmp-map>
     <script
       src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB2KcxJjrQUK3GDVK07BILnh4g3NfK6aQQ&callback=initMap&libraries=marker&v=beta&solution_channel=GMP_CCS_infowindows_v2"
@@ -82,3 +73,10 @@
     ></script>
   </body>
 </html>
+
+
+
+
+
+
+
